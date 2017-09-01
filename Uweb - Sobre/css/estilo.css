@@ -1,0 +1,42 @@
+/*Background */
+body {
+    background: url("http://i.imgur.com/Po4Zqtd.jpg") top center;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+
+/*Imagem principal */ 
+#secao-primaria {
+        margin-top: 20px;
+}
+
+/*Texto da imagem principal */ 
+figcaption {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 10px;
+    color: black;
+    text-align: left;
+    background-color: rgba(200,200,200,0.7)
+}
+
+/*footer*/
+
+#links{
+    padding: 25px;
+    width: 100%;
+    color: black;
+    background-color: rgba(0,0,0,0.9)
+}
+
+#links a{
+    margin: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#links a:hover{
+    color: #888;
+}
