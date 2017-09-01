@@ -1,0 +1,113 @@
+/*Background */
+body {
+    background: url("http://i.imgur.com/Po4Zqtd.jpg") top center;
+	background-attachment: scroll;
+	background-size: 100%;
+}
+
+/*Background Header */
+
+#secao-principal {
+    background: url("http://i.imgur.com/jKiarSp.png") top center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size:100%;
+	overflow: auto;
+}
+
+/*Imagem principal */ 
+#secao-primaria {
+        margin-top: 350px;
+    }
+
+@media screen and (min-width: 320px max-width: 640px) {
+    #secao-primaria {
+        margin-top: 300px;
+    }
+}
+
+@media screen and (min-width: 641px max-width: 1366px) {
+    #secao-primaria {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #secao-primaria {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #secao-primaria {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #secao-primaria {
+        margin-top: 100px;
+    }
+}
+
+
+@media screen and (max-width: 200px) {
+    #secao-primaria {
+        margin-top: 50px;
+    }
+}
+
+/*Botoes */
+.buttons{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/*Texto da imagem principal */ 
+figcaption {
+	margin-bottom: 0;
+	padding: 10px;
+	color: black;
+	text-align: left;
+	background-color: rgba(200,200,200,0.7)
+}
+
+/*Releituras */
+#Releituras {
+	margin: 0;
+	padding: 20px;
+	color: black;
+	background-color: rgba(0,0,0,0.7)
+}
+
+#Releituras .col-md-2{
+	margin-bottom: 15px;
+
+}
+
+.animation:hover{
+	transform: scale(1.5);
+	transition: 1s;
+	cursor: pointer;
+}
+
+/*footer*/
+
+#links{
+    padding: 25px;
+    width: 100%;
+    color: black;
+    background-color: rgba(0,0,0,0.9)
+}
+
+#links a{
+	margin: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#links a:hover{
+    color: #888;
+}
